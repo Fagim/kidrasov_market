@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class MainPage extends IndexPage {
     public static void main(String[] args) {
+        System.out.println("hello");
         try {
             Item xiaomiMain = new Item();
             JSONParser parser = new JSONParser();
